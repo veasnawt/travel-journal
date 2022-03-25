@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background: #E5E5E5; */
 }
 
 .App-logo {
@@ -35,4 +36,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  height: 70px;
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.globe-icon {
+  height: 35px;
+}
+
+.nav-title {
+  margin-left: 10px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main {
+  height: 100%;
+  max-width: 500px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.card--image {
+  flex: .25;
+}
+
+.card--info {
+  flex: .75;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.card--location {
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.card--location-location, .card--location-url {
+  margin-left: 5px;
+}
+
+.card--location-location {
+  font-size: 10.24px;
+  text-transform: uppercase;
+  color: #2B283A;
+}
+
+.card--location-url {
+  font-size: 10.24px;
+  color: #918E9B;
+}
+
+.card-title {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 7px;
+  color: #2B283A;
+}
+
+.card-date {
+  font-size: 10.24px;
+  color: #2B283A;
+  padding-top: 15px;
+}
+
+.card-description {
+  text-align: left;
+  font-size: 10.24px;
+  margin: 0;
+  padding-top: 7px;
 }
